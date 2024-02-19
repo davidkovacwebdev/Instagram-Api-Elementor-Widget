@@ -1,0 +1,29 @@
+.instagram-feed-feed_list{
+    list-style:none;
+    display:flex;
+    flex-wrap: wrap;
+}
+.instagram-feed-feed_list li{
+    width:20%;
+    
+}
+.remove.feed_username_by{
+    display:none;
+}
+
+
+.instagram-feed-feed_list li{
+    overflow:hidden;
+    height:100%;
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .instagram-feed-feed_list li{
+        display:block;
+        
+    }
+  }
